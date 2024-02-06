@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qp_mg_contact *.css
+recursive-include qp_mg_contact *.csv
+recursive-include qp_mg_contact *.html
+recursive-include qp_mg_contact *.ico
+recursive-include qp_mg_contact *.js
+recursive-include qp_mg_contact *.json
+recursive-include qp_mg_contact *.md
+recursive-include qp_mg_contact *.png
+recursive-include qp_mg_contact *.py
+recursive-include qp_mg_contact *.svg
+recursive-include qp_mg_contact *.txt
+recursive-exclude qp_mg_contact *.pyc
