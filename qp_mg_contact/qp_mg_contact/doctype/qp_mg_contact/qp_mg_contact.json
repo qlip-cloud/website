@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "creation": "2024-02-06 17:21:07.179713",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fullname",
+  "position",
+  "phone",
+  "email",
+  "company_name",
+  "subject"
+ ],
+ "fields": [
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Nombre y Apellido"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Cargo"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Telefono"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Correo Electronico"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre de la compania"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Long Text",
+   "label": "Asunto"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-07 15:50:56.869952",
+ "modified_by": "Administrator",
+ "module": "Qp Mg Contact",
+ "name": "qp_mg_Contact",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
